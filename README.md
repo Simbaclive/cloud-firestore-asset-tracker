@@ -22,7 +22,7 @@ The core engineering purpose of this system is to bridge terminal-based workflow
 Software Demonstration
 The link below includes a comprehensive 4-5 minute walkthrough of the terminal functionality, real-time data synchronization visual pairs inside the Firebase administrative panel, code framework highlights, and error-handling capabilities.
 
-Software Demo Video
+[Software Demo Video](https://youtu.be/_Q3bS_PuGDk)
 
 Cloud Database
 Infrastructure Selection
