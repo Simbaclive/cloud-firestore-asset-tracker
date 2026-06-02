@@ -6,10 +6,10 @@ from google.api_core.exceptions import GoogleAPIError
 
 def initialize_db():
     try:
-        # Load the encrypted service account key protected by .gitignore
+        
         cred = credentials.Certificate("firebase-key.json")
         firebase_admin.initialize_app(cred)
-        # Initialize the Firestore client
+     
         db = firestore.client()
         print("[SUCCESS] Connected securely to Google Firestore Cloud Database.\n")
         return db
